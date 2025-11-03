@@ -74,7 +74,7 @@
 				setBG(false, true, false);
 			} else if (mode == 'long') {
 				timer = 15 * 60;
-                modeTimer = 5*60
+                modeTimer = 15*60
 				setBG(false, false, true);
 			}
             clearInterval(intervalId);
@@ -100,6 +100,7 @@
 	};
 
     const updateBar = (opt) => {
+		console.log('updating bar')
         if (opt == 'reset') {
             progressBar.style.transform = `translateY(50vh) translateX(-100vw)`
             return;
