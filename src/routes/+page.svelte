@@ -143,7 +143,7 @@
 </script>
 
 <div id="mainDiv">
-    <h1 id="title">POMO-ZRN</h1>
+    <h1 id="title">POMO-ZRL</h1>
 	<div id="Clock">
 		<div id="Menu">
 			<button id="setFocus" on:click={() => setMode('focus')} class="menuButton bghv-grey">Focus</button>
