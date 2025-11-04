@@ -1,7 +1,9 @@
 <script>
     import { onMount } from "svelte";
 	import '../styles/layout.css'
+	import BGScreenSaver from '../lib/bg_screensaver.svelte'
 	let mode = 'focus'; // focus, short, long
+	
 
 	let setF, setL, setS, bar;
 	onMount(() => {
@@ -144,6 +146,7 @@
 	};
 </script>
 <div id="mainDiv">
+	<BGScreenSaver />
     <h1 id="title">POMO-ZRL</h1>
 	<div id="Clock">
 		<div id="Menu">
